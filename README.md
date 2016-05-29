@@ -233,6 +233,22 @@ if __name__ == '__main__':
 
 [Solve-150.py](./Solve-150.py)
 
+Résultat du script :
+
+-
+
+![](11.JPG)
+
+-
+
+On essaye et ça valide :D'  : 
+
+-
+
+![](12.JPG)
+
+-
+
 je vous remercie d'avoir lit ce write-up,, et j'espère qu'il vous a été utile ^_^'
 
 Salam.
