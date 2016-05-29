@@ -1,7 +1,7 @@
-########[+]- Auteur : Mimo-0xC001
-########[+]- www.fb.com/0xc00l
-########[+]- Category : Reverse
-########[+]- Points : 150
+######- Auteur : Mimo-0xC001
+######- www.fb.com/0xc00l
+######- Category : Reverse
+######- Points : 150
 
 -
 
@@ -13,7 +13,7 @@
  >
  > PS: j'ai essayé de simplifié les chose pour que n'importe qui peut comprendre !
 
-
+-
 
 Tout d'abord on nous a fournie un binaire (exe).
 La plus part préfère IDA on ce qui concerne L'Analyse des fichiers binaire etc ... en fait moi aussi,, mais par habitude avec les binaire (exe) je me sens plus à l'aise avec Olly !
@@ -173,24 +173,21 @@ Question : quelle est le critère d'arrêt de cette boucle ?!
 Bonne question ;)'
 j'ai posé la même question à moi même xD',, c'est la longueur d'une chaine initialisé dans la partie qu'on a ignoré ( la chaine ne sert à rien,, c'est juste sa longueur qui importe ... elle fait 26 caractères) ... :)'
 
-
-
+-
 
 ########## Image[8] ##########
 
-
-
+-
 
 Il nous manque un dernier truc :O' ... La Clé ( c'est pas la clé xor_key,, mais je parle la chaine qu'on comparre avec après avoir fait le xor ... )
 béh,, on peut l'obtenir facilement avec 2 méthode ... la première consiste à prendre les valeur en hex qui sont claire dans Olly et puis de les décodé en text -_-'
 perso,, je préfère celle du faire un breakpoint dans la partie initialisation et puis suivre l'execution jusqu'à ce que l'initialisation soit terminer,, vous jettez un coup d'oeil sur le STACK et ooop : 
 
-
-
+-
 
 ########## Image[9] ##########
 
-
+-
 
 Enfin,, voila la chaine : la chaine = "F!14bcFbjgHonDigEzDfiNoshDFR14Gff5zDBEssZerg=="
 
@@ -198,6 +195,7 @@ Enfin,, voila la chaine : la chaine = "F!14bcFbjgHonDigEzDfiNoshDFR14Gff5zDBEssZ
 j'espère que vous avez bien compris le principe,, dans ce cas vous pouvez écrire votre propre script qui va vous fournir le FLAG ^_^'
 en tout cas voila le script que j'ai écrit pour avoir le flag ... :)'
 
+-
 
 <pre><code class="python">
 
@@ -228,7 +226,7 @@ if __name__ == '__main__':
 
 </code></pre>
 
-
+-
 
 
 je vous remercie d'avoir lit ce write-up,, et j'espère qu'il vous a été utile ^_^'
