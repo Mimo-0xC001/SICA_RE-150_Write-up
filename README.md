@@ -108,7 +108,7 @@ Ici vous devez vous concentrez un peu ...
 on voit bien le premier bout :
           
 -        
-  ```asm        
+```asm        
    		   MOV EAX,DWORD PTR SS:[EBP-1C]  ; on met le contenu d'une variable dans EAX ( cette variable c'est juste un compteur utilisé dans une boucle )
 		   AND EAX,3                      ; c'est claire le AND !  (Rappel : 0 AND 0 = 0 AND 1 = 0 ,, 1 AND 1 = 1 ) 
 		   TEST EAX,EAX                   ; en gros,, on vérifie si le compteur est un multiple de 4 ... si ce n'est pas le cas on execute un jump vers une certaine adresse ...
@@ -119,7 +119,7 @@ on voit bien le premier bout :
 le deuxieme bout :
 
 -  
-     ```asm         
+```asm         
 		   MOV EAX,DWORD PTR SS:[EBP-1C]  ; je vais appelé DWORD PTR SS:[EBP-1C] le compteur i par la suite   ( MOV EAX,i )
            ADD EAX,EAX                    ; c'est l'équivalent de EAX = EAX * 2
 		   ADD EAX,3                      ;  EAX = EAX + 3
