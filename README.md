@@ -20,7 +20,7 @@ La plus part préfère IDA on ce qui concerne L'Analyse des fichiers binaire etc
 
 Il est pas ci compliqué ne vous inquiéttez pas ;)'
 
-La première chose à faire évidament c'est de testé le binaire,, voila le résultat :
+La première chose à faire évidemment c'est de testé le binaire,, voila le résultat :
 
 -
 
