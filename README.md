@@ -15,7 +15,7 @@
 
 -
 
-Tout d'abord on nous a fournie un binaire (exe).
+Tout d'abord on nous a donné un binaire (exe).
 La plus part préfère IDA on ce qui concerne L'Analyse des fichiers binaire etc ... en fait moi aussi,, mais par habitude avec les binaire (exe) je me sens plus à l'aise avec Olly !
 
 Il est pas ci compliqué ne vous inquiéttez pas ;)'
