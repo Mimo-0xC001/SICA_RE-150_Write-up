@@ -109,9 +109,11 @@ on voit bien le premier bout :
           
 -        
 ```asm        
-   		   MOV EAX,DWORD PTR SS:[EBP-1C]  ; on met le contenu d'une variable dans EAX ( cette variable c'est juste un compteur utilisé dans une boucle )
+   		   MOV EAX,DWORD PTR SS:[EBP-1C]  ; on met le contenu d'une variable dans EAX ( cette variable c'est juste un
+   		                                  ;            compteur utilisé dans une boucle )
 		   AND EAX,3                      ; c'est claire le AND !  (Rappel : 0 AND 0 = 0 AND 1 = 0 ,, 1 AND 1 = 1 ) 
-		   TEST EAX,EAX                   ; en gros,, on vérifie si le compteur est un multiple de 4 ... si ce n'est pas le cas on execute un jump vers une certaine adresse ...
+		   TEST EAX,EAX                   ; en gros,, on vérifie si le compteur est un multiple de 4 ... si ce n'est
+		                                  ; pas le cas on execute un jump vers une certaine adresse ...
 		   JNZ (certaine adresse)
 ```	
 -	
@@ -120,13 +122,16 @@ le deuxieme bout :
 
 -  
 ```asm         
-		   MOV EAX,DWORD PTR SS:[EBP-1C]  ; je vais appelé DWORD PTR SS:[EBP-1C] le compteur i par la suite   ( MOV EAX,i )
-           ADD EAX,EAX                    ; c'est l'équivalent de EAX = EAX * 2
+		   MOV EAX,DWORD PTR SS:[EBP-1C]  ; je vais appelé DWORD PTR SS:[EBP-1C] le compteur i par la suite
+		                                  ; ( MOV EAX,i )
+                   ADD EAX,EAX                    ; c'est l'équivalent de EAX = EAX * 2
 		   ADD EAX,3                      ;  EAX = EAX + 3
-		   MOV DWORD PTR SS:[EBP-24],EAX  ; on met le résultat dans une variable ( je vais appelé cette variable "xor_key",, on va voir par la suite pourquoi :p' )
-           ....							  ; en gros xor_key = (i*2) + 3
-           ....
-           ....
+		   MOV DWORD PTR SS:[EBP-24],EAX  ; on met le résultat dans une variable
+		                                  ; ( je vais appelé cette variable "xor_key",, on va voir par la suite
+		                                  ; pourquoi :p' )
+                   ....				  ; en gros xor_key = (i*2) + 3
+           	   ....
+           	   ....
  ```	
 -	
 		  
@@ -156,11 +161,11 @@ mais si c'est le cas :
 
 -
 ```asm
-			MOV EAX,i 				; claire ...
-			ADD EAX,2				; EAX = EAX + 2
+			MOV EAX,i 			; claire ...
+			ADD EAX,2			; EAX = EAX + 2
 			ADD EAX,EAX 			; EAX = EAX * 2
 			MOV xor_key,EAX			; xor_key = EAX 
-			....					; en gros :  xor_key = (i+2)*2
+			....				; en gros :  xor_key = (i+2)*2
 			....
 			....
 ```
