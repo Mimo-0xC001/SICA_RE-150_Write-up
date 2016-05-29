@@ -50,6 +50,7 @@ PS : Le binaire est pleins d'Anti-Debug,, ça dérange je sais :p' ... on va le 
 
 Pour le premier code tout est claire,, on a le numéro directe vite fait ...
 On peut le tirer facilement depuis la commande à 00401F83  "cmp EAX,0C2D",, il est en Hex "0xC2D" = "3117" ...
+
 Cool,, on essaye le code et Bingo ... à l'étappe suivante : 
 
 -
@@ -59,6 +60,7 @@ Cool,, on essaye le code et Bingo ... à l'étappe suivante :
 -
 
 Il nous demande un autre pass :('
+
 On continue ...
 
 -
