@@ -155,7 +155,7 @@ ici on met la valeur du compteur que j'ai appelé i,, dans ECX ... puis on véri
 mais si c'est le cas :
 
 -
-
+```asm
 			MOV EAX,i 				; claire ...
 			ADD EAX,2				; EAX = EAX + 2
 			ADD EAX,EAX 			; EAX = EAX * 2
@@ -163,7 +163,7 @@ mais si c'est le cas :
 			....					; en gros :  xor_key = (i+2)*2
 			....
 			....
-
+```
 -
 		   
 le rèste est le même,, on fait un xor blabla ...
@@ -197,7 +197,7 @@ en tout cas voila le script que j'ai écrit pour avoir le flag ... :)'
 
 -
 
-<pre><code class="python">
+```python
 
 #!/usr/bin/env python
 
@@ -224,7 +224,7 @@ def main():
 if __name__ == '__main__':
     main()
 
-</code></pre>
+```
 
 -
 
