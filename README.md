@@ -7,7 +7,7 @@
 
  > Salam,
  >
- > Voici le lien du binaire : ##Lien##
+ > Voici le lien du binaire : [Reverseme150.exe](./Reverseme150.exe)
  >
  > Pas d'introduction :p',, on va essayé de voir la solution ensemble ^_^'
  >
@@ -24,7 +24,7 @@ La première chose à faire évidament c'est de testé le binaire,, voila le ré
 
 -
 
-########## Image[0] ##########
+![](0.JPG)
 
 -
 
@@ -32,7 +32,7 @@ Emmm ... Ok,, on ouvre le binaire avec Olly ... :
 
 -
 
-########## Image[1] ##########
+![](1.JPG)
 
 -
 
@@ -42,7 +42,7 @@ PS : Le binaire est pleins d'Anti-Debug,, ça dérange je sais :p' ... on va le 
 
 -
 
-########## Image[2] ##########
+![](2.JPG)
 
 -
 
@@ -54,7 +54,7 @@ Cool,, on essaye le code et Bingo ... à l'étappe suivante :
 
 -
 
-########## Image[3] ##########
+![](3.JPG)
 
 -
 
@@ -63,7 +63,7 @@ On continue ...
 
 -
 
-########## Image[4] ##########
+![](4.JPG)
 
 -
 
@@ -73,7 +73,7 @@ On continue ...
 
 -
 
-########## Image[5] ##########
+![](5.JPG)
 
 -
 
@@ -87,7 +87,7 @@ On entre dedans,, on va l'explorer et puis essayer de la comprendre ... :)'
 
 -
 
-########## Image[6] ##########
+![](6.JPG)
 
 -
 
@@ -97,7 +97,7 @@ Donc on saute directement à l'adresse 00401AC4 :
 
 -
 
-########## Image[7] ##########
+![](7.JPG)
 
 -
 
@@ -144,7 +144,7 @@ voila :
 
 -
           
-########## Image[8] ##########
+![](8.JPG)
 
 -
 
@@ -175,7 +175,7 @@ j'ai posé la même question à moi même xD',, c'est la longueur d'une chaine i
 
 -
 
-########## Image[8] ##########
+![](9.JPG)
 
 -
 
@@ -185,7 +185,7 @@ perso,, je préfère celle du faire un breakpoint dans la partie initialisation 
 
 -
 
-########## Image[9] ##########
+![](10.JPG)
 
 -
 
@@ -228,6 +228,7 @@ if __name__ == '__main__':
 
 -
 
+[Solve-150.py](./Solve-150.py)
 
 je vous remercie d'avoir lit ce write-up,, et j'espère qu'il vous a été utile ^_^'
 
